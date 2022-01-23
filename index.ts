@@ -1,8 +1,7 @@
-import { ApiLatencies, TransitionsCSV } from './inputs';
 import './style.css';
-import '@extensions';
+import '@extensions/string.extension';
 // Define transition entity
-
+console.log('start');
 // Prepare inputs
 // const isShowLatencyValue = true;
 // const csvRows = TransitionsCSV.split('\n');

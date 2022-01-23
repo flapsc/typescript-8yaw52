@@ -8,7 +8,7 @@
       "@interfaces": ["./interfaces"],
       "@types": ["./types"],
       "@innerHtml": ["./inner-html"],
-      "@extensions": ["./extensions"]
+      "@extensions/*": ["./extensions/*"]
     }
   },
   "exclude": ["node_modules"]
