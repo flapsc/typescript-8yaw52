@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "baseUrl": ".",
+    "paths": {
+      "@interfaces": ["./interfaces"],
+      "@types": ["./types"],
+      "@innerHtml": ["./inner-html"]
+    }
+  }
+}
