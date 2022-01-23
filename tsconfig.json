@@ -2,10 +2,14 @@
   "compilerOptions": {
     "target": "ESNext",
     "baseUrl": ".",
+    "types": ["node"],
+    "typeRoots": ["node_modules/@types"],
     "paths": {
       "@interfaces": ["./interfaces"],
       "@types": ["./types"],
-      "@innerHtml": ["./inner-html"]
+      "@innerHtml": ["./inner-html"],
+      "@extensions": ["./extensions"]
     }
-  }
+  },
+  "exclude": ["node_modules"]
 }
