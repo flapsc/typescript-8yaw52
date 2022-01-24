@@ -3,12 +3,15 @@
     "target": "ESNext",
     "baseUrl": ".",
     "types": ["node"],
-    "typeRoots": ["node_modules/@types"],
+    "moduleResolution": "node",
+    "typeRoots": [
+      "node_modules/@types",
+      "./extensions/extensions-typings.d.ts"
+    ],
     "paths": {
       "@interfaces": ["./interfaces"],
       "@types": ["./types"],
-      "@innerHtml": ["./inner-html"],
-      "@extensions/*": ["./extensions/*"]
+      "@innerHtml": ["./inner-html"]
     }
   },
   "exclude": ["node_modules"]

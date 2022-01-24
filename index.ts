@@ -1,7 +1,8 @@
 import './style.css';
-import '@extensions/string.extension';
+import './extensions';
+
 // Define transition entity
-console.log('start');
+const cents = console.log('123123131331'.toDollarsFromCents());
 // Prepare inputs
 // const isShowLatencyValue = true;
 // const csvRows = TransitionsCSV.split('\n');

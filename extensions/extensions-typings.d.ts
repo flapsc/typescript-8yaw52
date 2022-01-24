@@ -2,6 +2,6 @@
 
 //#region Declare extensible String methods/properties
 interface String {
-  toDollarsFromCents(this: string): string;
+  toDollarsFromCents(this: string): number;
 }
 //#endregion
